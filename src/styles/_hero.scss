@@ -1,0 +1,45 @@
+.hero {
+    padding: 5.6vw;
+    min-height: 80vh;
+    background-image: url(../images/John\ Wick.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &__content {
+        max-width: 840px;
+        padding-top: 200px;
+        padding-right: 100px;
+
+        &__branding {
+            font-size: 130px;
+            display: flex;
+            padding-left: 60px;
+            margin: 0 auto;
+        }
+
+        &__combos {
+            display: flex;
+            width: 50%;
+            margin-left: 180px;
+            justify-content: space-between;
+
+            &__combo {
+                width: 50%;
+                list-style: none;
+                padding-top: 50px;
+
+                button {
+                    display: block;
+                    width: 95%;
+                    height: 30px;
+                    font-size: 15px;
+                    border-radius: 6px;
+                    font-weight: bold;
+                    background-color: #ff4757;
+                    border: none;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
