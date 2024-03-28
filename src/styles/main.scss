@@ -1,4 +1,7 @@
 @use 'hero';
+@use 'watch-anywhere';
+@use 'available-devices';
+@use 'footer';
 
 * {
     margin: 0;
@@ -6,12 +9,12 @@
     box-sizing: border-box;
 }
 
-$corDeFundo: #94490d;
+$corDeFundo: #030200;
 $corTextoPrincipal: rgb(59, 4, 4);
 $corTextoSecundario: #330404;
 
 body {
-    background-color: #040714;
+    background-color: #e7c8dd;
 }
 
 @mixin text($fontSize: 16px) {
